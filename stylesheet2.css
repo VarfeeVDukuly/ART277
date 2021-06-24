@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(150, 200, 110);
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  outline-color: rgb(240, 103, 12);
+}
+
+h1 {
+  color: rgb(24, 7, 20);
+  margin-bottom: 2px;
+  font-size: 44px;
+  text-align: left;
+}
+
+nav {
+  background-color: rgb(108, 99, 155);
+  height: 5rem;
+  color: white;
+  padding-top: 0.8rem;
+  padding-right: 50px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 13px;
+  text-align: center;
+  border-right: 1px;
+  min-width: 100px;
+  float: right;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+  background-color: rgb(87, 214, 214);
+}
+
+.banner {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(2, 2, 20);
+  height: 4rem;
+  color: white;
+  padding: 3px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  font-size: 38px;
+}
+
+span {
+  padding-left: 20px;
+  padding-top: 10rem;
+}
+span .logo {
+  color: rgb(240, 199, 18);
+}
+
+nav p {
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.form {
+  width: 80%;
+  max-height: max-content;
+  background: rgb(105, 12, 27));
+  align-self: center;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 22px;
+  padding: 8px;
+}
+
+input {
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+textarea {
+  width: 95%;
+  border-radius: 10px;
+  border: none;
+}
+
+.send {
+  background-color: rgb(52, 122, 52);
+  font-size: 20px;
+}
+
+table {
+  table-layout: fixed;
+  text-align: left;
+}
+
+th {
+  font-size: 16px;
+}
+
+td {
+  word-wrap: break-word;
+  padding: 2px;
+  font-size: 16px;
+}
+
+div .table {
+  background-color: rgb(29, 184, 204);
+}
